@@ -51,7 +51,7 @@ public class Killshot {
         return INSTANCE;
     }
 
-    public Killshot() throws RuntimeException {
+    public Killshot() {
         binding = null;
         playerEntity = null;
         playerName = null;
